@@ -1,0 +1,25 @@
+p,ul,li {
+    font-size: large;
+}
+
+.code_sample {
+    font-size: small;
+}
+
+.brd {
+    margin-left: 25px;
+    margin-right: 25px;
+    border: 2px solid black;
+    background: lightgray;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.main_brd {
+    width: 600px;
+}
+
+.center_align {
+    display: flex;
+    justify-content: center;
+}
