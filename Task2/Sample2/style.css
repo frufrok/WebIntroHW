@@ -1,0 +1,18 @@
+html {
+    background-color: whitesmoke;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.center-aligned {
+    display: flex;
+    justify-content: center;
+}
+
+.main-width {
+    width: 600;
+}
+
+h1,
+h2 {
+    color: maroon;
+}
