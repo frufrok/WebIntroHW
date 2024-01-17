@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script lang="Javascript">
+        function greetings(name) {
+            if (name == "") {
+                return "Привет, Незнакомец!";
+            }
+            else {
+                return  "Привет, " + name + "!";
+            }
+        }
+        let name = prompt("Как Вас зовут?");
+        alert(greetings(name))
+    </script>
+</body>
+</html>
